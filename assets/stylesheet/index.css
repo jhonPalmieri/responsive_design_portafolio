@@ -17,10 +17,11 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+   
 }
 
 html {
-    font-size: 62.5%;
+    font-size: 45.5%;
     scrollbar-width: thin;
     scrollbar-color: var(--beaver) var(--eerie-black);
     scroll-behavior: smooth;
@@ -269,18 +270,19 @@ span+span {
 }
 
 .container_image-home {
-    width: 100%;
+    width: 40%;
     height: auto;
     display: flex;
     justify-content: center;
-    padding: 10rem 0 5rem 0;
+    padding: 5rem 0 5rem 0;
+    align-items: center;
 }
 
 .image_home {
-    max-width: 65%;
+    max-width: 76%;
     transition: .4s;
     animation: image 2s;
-   border-radius: 50%;
+   border-radius: 5%;
    
     
 }
